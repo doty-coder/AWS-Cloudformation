@@ -16,12 +16,12 @@ Overview
 ## Prerequisites
 Before you begin, make sure you have the following:
 
-    1.AWS Account: Ensure you have an AWS account with the necessary permissions to create resources.
-    2.AWS CLI: Install the AWS Command Line Interface to interact with AWS services.
+    AWS Account: Ensure you have an AWS account with the necessary permissions to create resources.
+    AWS CLI: Install the AWS Command Line Interface to interact with AWS services.
 
 # Deployment Steps
 Use the command below 
-' aws cloudformation create-stack --stack-name YourStackName --template-body file://path/to/your/template.yaml --capabilities CAPABILITY_IAM '
+1. aws cloudformation create-stack --stack-name YourStackName --template-body file://path/to/your/template.yaml --capabilities CAPABILITY_IAM '
 
     aws cloudformation: This is the AWS CLI command for interacting with AWS CloudFormation. 
 
